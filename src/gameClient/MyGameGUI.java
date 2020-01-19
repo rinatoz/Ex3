@@ -296,11 +296,12 @@ public MyGameGUI(game_service game,int scenario)
 		List<String> log = getGame().move();
 		if(log!=null) {
 			long t = getGame().timeToEnd();
-			for(int i=0;i<log.size();i++)
-			{
-					int rid=getRobots().get(i).id;
-					int src=getRobots().get(i).getSrc();
-					int dest=getRobots().get(i).getDest();
+
+			int[]a;
+			
+					int rid=getRobots().get(0).id;
+					int src=getRobots().get(0).getSrc();
+					int dest=getRobots().get(0).getDest();
 					if(dest==-1) 
 					{	
 						Collection<edge_data> e=this.getG().getE(src);
@@ -317,7 +318,7 @@ public MyGameGUI(game_service game,int scenario)
 						System.out.println("Turn to node: "+dest+"  time to end:"+(t/1000));
 					}
 				
-			}
+			
 		}
 		for(Iterator<node_data> verIter=getG().getV().iterator(); verIter.hasNext();)
 		{
@@ -343,7 +344,10 @@ public MyGameGUI(game_service game,int scenario)
 		game.startGame();
 		while(game.isRunning())
 		{
+			if(type=="automatic")
+			{
 				this.getM1().update(game, fruits, robots);
+			}
 				synchronized(this) 
 				{
 					if(type=="automatic")
@@ -364,7 +368,8 @@ public MyGameGUI(game_service game,int scenario)
 		String results = game.toString();
 		System.out.println("Game Over: "+results);
 	}
-	public static void main(String[] args) 
+	
+    public static void main(String[] args) 
 	{
 		MyGameGUI my=new MyGameGUI();
 	    my.run();
