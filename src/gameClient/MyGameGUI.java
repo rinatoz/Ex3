@@ -1,6 +1,7 @@
 package gameClient;
 
 import java.awt.Color;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -34,7 +35,7 @@ public class MyGameGUI  implements Runnable
 	private String type;
 	private MyManageGame m1;
 
-	public MyGameGUI()
+	public MyGameGUI(KML_logger kml)
 		{
 			StdDraw.enableDoubleBuffering();
              this.setRobots(new ArrayList<Robot>());
@@ -47,11 +48,20 @@ public class MyGameGUI  implements Runnable
              String graph=getGame().getGraph();
              this.setG(new DGraph());
              this.getG().init(graph);
+             this.getG().nodeSize();
+             KML_logger.openKMLFolder(kml.fw,"Nodes","This is where the Nodes are stored");
+     		for(int i=0;i<this.getG().nodeSize();i++)
+     		{
+     			KML_logger.fillNodes(kml.fw,this.getG().getNode(i).getLocation().toString());
+     		}
+     		
+     		KML_logger.closeKMLFolder(kml.fw);
+     		KML_logger.fillEdges(kml.fw,KML_logger.Coordinates);
              this.setGa(new Graph_Algo());
              getGa().init(this.getG());
              limit(); //size of the GUI screen
              drawS(); //build the graph
-             initGUI(); // place the fruits and place the robots
+             initGUI(kml); // place the fruits and place the robots
          	 String t[]=new String[2]; //play by mouse or automatic
          	 t[0]="automatic";
          	 t[1]="mouse";
@@ -67,30 +77,30 @@ public class MyGameGUI  implements Runnable
     		 drawRobot();    		
 		}
 	
-public MyGameGUI(game_service game,int scenario)
-	{
-	this.setRobots(new ArrayList<Robot>());
-     this.setFruits(new ArrayList<myFruits>());
-      this.game=game;
-      this.scenario=scenario;
-      this.setGame(Game_Server.getServer(scenario));
-      String graph=getGame().getGraph();
-      this.setG(new DGraph());
-      this.getG().init(graph);
-      this.setGa(new Graph_Algo());
-      getGa().init(this.getG());
-       addRobots(game);
-       addFruit(game);
-    // limit();
+    public MyGameGUI(game_service game2, int i)
+    {
+    	this.setRobots(new ArrayList<Robot>());
+        this.setFruits(new ArrayList<myFruits>());
+         this.game=game2;
+         this.scenario=i;
+         this.setGame(Game_Server.getServer(scenario));
+         String graph=getGame().getGraph();
+         this.setG(new DGraph());
+         this.getG().init(graph);
+         this.setGa(new Graph_Algo());
+         getGa().init(this.getG());
+          addRobots(game);
+          addFruit(game, null);
+       // limit();
 	}
-	
-    public void initGUI()
+
+	public void initGUI(KML_logger kml)
 	{	
     	StdDraw.clear();
     	drawS();
 		getFruits().clear();
-		addFruit(getGame());
-		drawFruits();
+		addFruit(getGame(),kml);
+		drawFruits(kml);
 		getRobots().clear();
 		addRobots(getGame());
 		drawRobot();
@@ -202,7 +212,7 @@ public MyGameGUI(game_service game,int scenario)
 	}
 	}
 	
-	public void addFruit(game_service g) 
+	public void addFruit(game_service g, KML_logger kml) 
 	{	
 		List<String> list = g.getFruits();
 		if(list!=null) {
@@ -235,7 +245,7 @@ public MyGameGUI(game_service game,int scenario)
 		}
 }
 	
-    public void drawFruits()
+    public void drawFruits(KML_logger kml)
 	{
 	for (int i=0;i<getFruits().size();i++)
 	{
@@ -243,9 +253,16 @@ public MyGameGUI(game_service game,int scenario)
 			boolean type=fruit.whichfruit;
 			Point3D pos=fruit.pos;
 			if(type==false)
+			{
+				KML_logger.fillFruit(kml.fw, pos.toString(),"apple");
 				StdDraw.picture(pos.x(), pos.y(),"apple.png", 0.0004, 0.0004);
+			}
+				
 			else
+			{
+				KML_logger.fillFruit(kml.fw, pos.toString(),"banana");
 				StdDraw.picture(pos.x(), pos.y(),"banana.png", 0.0004, 0.0004);
+			}
 	}
 	}
 	
@@ -297,11 +314,9 @@ public MyGameGUI(game_service game,int scenario)
 		if(log!=null) {
 			long t = getGame().timeToEnd();
 
-			int[]a;
-			
 					int rid=getRobots().get(0).id;
-					int src=getRobots().get(0).getSrc();
-					int dest=getRobots().get(0).getDest();
+					int src=getRobots().get(0).src;
+					int dest=getRobots().get(0).dest;
 					if(dest==-1) 
 					{	
 						Collection<edge_data> e=this.getG().getE(src);
@@ -313,13 +328,13 @@ public MyGameGUI(game_service game,int scenario)
 							dests[j]=it.next().getDest();
 							j++;
 						}
-			            dest=(Integer)JOptionPane.showInputDialog(null,"choose next node","move robot manual", JOptionPane.QUESTION_MESSAGE,null,dests,null);
+			            dest=(Integer)JOptionPane.showInputDialog(null,"choose next node","move robot manual",JOptionPane.DEFAULT_OPTION,null,dests,null);
 						getGame().chooseNextEdge(rid, dest);
 						System.out.println("Turn to node: "+dest+"  time to end:"+(t/1000));
 					}
 				
-			
-		}
+			}
+		
 		for(Iterator<node_data> verIter=getG().getV().iterator(); verIter.hasNext();)
 		{
 			int src=verIter.next().getKey();
@@ -338,8 +353,7 @@ public MyGameGUI(game_service game,int scenario)
 	}
 	
 
-@Override
-	public void run()
+    public void run(KML_logger kml)
 	{	
 		game.startGame();
 		while(game.isRunning())
@@ -351,14 +365,14 @@ public MyGameGUI(game_service game,int scenario)
 				synchronized(this) 
 				{
 					if(type=="automatic")
-						 this.getM1().moveRobotsAuto();
+						 this.getM1().moveRobotsAuto(kml);
 					else	
-					   moveRobotsManual();
-					initGUI();
+					moveRobotsManual();
+					initGUI(kml);
 				}
 				try
 				{
-					Thread.sleep(70);
+					Thread.sleep(100);
 				}
 				catch(InterruptedException e)
 				{
@@ -368,11 +382,29 @@ public MyGameGUI(game_service game,int scenario)
 		String results = game.toString();
 		System.out.println("Game Over: "+results);
 	}
-	
-    public static void main(String[] args) 
+	public static void main(String[] args) 
 	{
-		MyGameGUI my=new MyGameGUI();
-	    my.run();
+		KML_logger kml = null;
+		try {
+			kml = new KML_logger();
+			
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		KML_logger.Styleid(kml.fw,"apple");
+		KML_logger.Styleid(kml.fw,"banana");
+		KML_logger.Styleid(kml.fw,"robot");
+		MyGameGUI my=new MyGameGUI(kml);
+	    my.run(kml);
+	    //KML_logger.closeKMLFolder(kml.fw);	
+		//KML_logger.migrationPath(kml.fw,KML_logger.Coordinates);
+		try {
+			kml.closekml();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public game_service getGame() {
@@ -418,9 +450,17 @@ public MyGameGUI(game_service game,int scenario)
        ArrayList<Robot> rob=(ArrayList<Robot>)p;
 		this.robots=rob;
 	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public MyManageGame getM1() {
 		return m1;
 	}
+
 	public void setM1(MyManageGame m1) {
 		this.m1 = m1;
 	}

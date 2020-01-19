@@ -71,7 +71,7 @@ public void autogetALGOgraph() throws JSONException
 				my.getM1().update(game,my.getFruits(),my.getRobots());
 				synchronized(this) 
 				{
-						my.getM1().moveRobotsAuto();
+						my.getM1().moveRobotsAuto(null);
 
 				}
 				try
@@ -91,7 +91,7 @@ public void autogetALGOgraph() throws JSONException
 					my.getM1().update(game,my.getFruits(),my.getRobots());
 					synchronized(this) 
 					{
-							my.getM1().moveRobotsAuto();
+							my.getM1().moveRobotsAuto(null);
 
 					}
 					try
