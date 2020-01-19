@@ -143,7 +143,8 @@ public class MyGameGUI  implements Runnable
 				long time=getGame().timeToEnd();
 				StdDraw.setPenColor(Color.BLACK);
 				StdDraw.setPenRadius(0.020); 
-				StdDraw.text(minX+(maxX-minX)*0.8,minY+(maxY-minY)*0.9,"time to end: " +time/1000);
+				StdDraw.text(minX+(maxX-minX)*0.85,minY+(maxY-minY)*0.95, "The time is:"+time/1000);
+				StdDraw.text(minX+(maxX-minX)*0.15,minY+(maxY-minY)*0.95, "Level:"+scenario);
 			}
 			catch (Exception e) {}
 		}
@@ -266,7 +267,7 @@ public class MyGameGUI  implements Runnable
 		int i=0;
 		while(i<rs)
 		{
-			int v=(Integer)JOptionPane.showInputDialog(null,"start place to"+ i +" robot number","add robot",JOptionPane.QUESTION_MESSAGE,null,nodes,null);
+			int v=(Integer)JOptionPane.showInputDialog(null,"start place to robot number "+ (i+1),"add robot",JOptionPane.QUESTION_MESSAGE,null,nodes,null);
 			getGame().addRobot(v);
 			i++;
 		}
@@ -318,38 +319,34 @@ public class MyGameGUI  implements Runnable
 		this.getGa().init(getG());
 	}
 	
-	@Override
-	public void run() 
-	{
-		drawS();
-		getGame().startGame();
-		int index=0;
-		while(getGame().isRunning())
+
+@Override
+	public void run()
+	{	
+		game.startGame();
+		while(game.isRunning())
 		{
+				this.m1.update(game, fruits, robots);
 				synchronized(this) 
 				{
-					if (type.equals("automatic"))
-					{
-					   this.m1.moveRobotsAuto();
-						if(index%4==0)
-						{
-							initGUI();
-						}
-						  
-					}
-					else
-					{
-						moveRobotsManual();
-						initGUI();
-					}
-			   
-					index++;
+					if(type=="automatic")
+						 this.m1.moveRobotsAuto();
+					else	
+					   moveRobotsManual();
+					initGUI();
+				}
+				try
+				{
+					Thread.sleep(100);
+				}
+				catch(InterruptedException e)
+				{
+					e.printStackTrace();
 				}
 		}		
-		String results = getGame().toString();
+		String results = game.toString();
 		System.out.println("Game Over: "+results);
 	}
-
 	public static void main(String[] args) 
 	{
 		MyGameGUI my=new MyGameGUI();
@@ -372,8 +369,9 @@ public class MyGameGUI  implements Runnable
 		this.g = g;
 	}
 
-	public void setFruits(ArrayList<myFruits> fruits) {
-		this.fruits = fruits;
+	public void setFruits(List<myFruits> f) {
+		 ArrayList<myFruits> fru=(ArrayList<myFruits>)f;
+			this.fruits=fru;
 	}
 
 	public Graph_Algo getGa() {
@@ -393,8 +391,10 @@ public class MyGameGUI  implements Runnable
 		return robots;
 	}
 
-	public void setRobots(ArrayList<Robot> robots) {
-		this.robots = robots;
+	public void setRobots(List<Robot> p)
+	{
+       ArrayList<Robot> rob=(ArrayList<Robot>)p;
+		this.robots=rob;
 	}
 
 
