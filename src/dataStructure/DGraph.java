@@ -5,10 +5,8 @@
 package dataStructure;
 
 import java.util.Iterator;
-import oop_elements.OOP_Edge;
 import java.util.Collection;
 import org.json.JSONArray;
-import oop_utils.OOP_Point3D;
 import utils.Point3D;
 
 import org.json.JSONObject;
@@ -236,7 +234,6 @@ public class DGraph implements graph
         final JSONArray EArray = new JSONArray();
         final Collection<node_data> V = this.getV();
         final Iterator<node_data> iter = V.iterator();
-        final Collection<edge_data> E = null;
         Iterator<edge_data> itr = null;
         try {
             while (iter.hasNext()) {

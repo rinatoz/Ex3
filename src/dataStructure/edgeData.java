@@ -35,6 +35,14 @@ public class edgeData implements edge_data, Serializable
         this.set_dest(dest);
         this.set_weight(w);
     }
+    public edgeData(int s,int d,double w,String i,int t) 
+	{
+		this._src=s;
+		this._dest=d;
+		this._weight=w;
+		this._msg=i;
+		this._tag=t;
+	}
     
     public edge_data init(final int src, final int dest, final double w) {
         return new edgeData(src, dest, w);

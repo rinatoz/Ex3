@@ -17,22 +17,22 @@ public class MyManageGame
    
    public MyManageGame()
    {
-	   this.my=null;
+	   this.setMy(null);
    }
    public MyManageGame (MyGameGUI m)
    {
-	   this.my=m;
+	   this.setMy(m);
    }
 	public  void update(game_service game,List<myFruits> f,List<Robot> p)
 	{
-		this.my.setGame(game);
-		this.my.setFruits(f);
-		this.my.setRobots(p);
+		this.getMy().setGame(game);
+		this.getMy().setFruits(f);
+		this.getMy().setRobots(p);
 	}
    
 	public void Auto()
 	{
-		String info = this.my.getGame().toString();
+		String info = this.getMy().getGame().toString();
 		JSONObject line;
 		int rs=0;
 		try {
@@ -44,10 +44,10 @@ public class MyManageGame
 			e.printStackTrace();
 			}
 
-		int nv=this.my.getG().nodeSize();
+		int nv=this.getMy().getG().nodeSize();
 		int nodes[]=new int[nv];
 		int j=0;
-		for(Iterator<node_data> v=this.my.getG().getV().iterator();v.hasNext();) 
+		for(Iterator<node_data> v=this.getMy().getG().getV().iterator();v.hasNext();) 
 		{
 			int p=v.next().getKey();
 			nodes[j]=p;
@@ -56,33 +56,33 @@ public class MyManageGame
 		while(rs>0)
 		{
 			int random=(int)(Math.random()*nodes.length);
-			this.my.getGame().addRobot(nodes[random]);
+			this.getMy().getGame().addRobot(nodes[random]);
 			rs--;
 		}
-		my.addRobots(this.my.getGame());
+		getMy().addRobots(this.getMy().getGame());
 	}
 	
 	public  void moveRobotsAuto()
 	{
 		List<Integer> destList = new ArrayList<Integer>();
-		List<String> log = this.my.getGame().move();
+		List<String> log = this.getMy().getGame().move();
 		if(log!=null) {
-			long t = this.my.getGame().timeToEnd();
+			long t = this.getMy().getGame().timeToEnd();
 			for(int i=0;i<log.size();i++) //for each robots find his next destination 
 			{
-				destList.add(this.my.getRobots().get(i).dest);
+				destList.add(this.getMy().getRobots().get(i).getDest());
 			}
 			for(int i=0;i<log.size();i++) //for each robots find his next destination 
 			{
 				try {
-					int rid=this.my.getRobots().get(i).id;
-					int src=this.my.getRobots().get(i).src;
-					int dest=this.my.getRobots().get(i).dest;
+					int rid=this.getMy().getRobots().get(i).id;
+					int src=this.getMy().getRobots().get(i).getSrc();
+					int dest=this.getMy().getRobots().get(i).getDest();
 					if(dest==-1) 
 					{	
 						dest = nextNode(src,destList); //find the closet fruit
 						destList.add(dest);
-						this.my.getGame().chooseNextEdge(rid, dest);
+						this.getMy().getGame().chooseNextEdge(rid, dest);
 						System.out.println("Turn to node: "+dest+"  time to end:"+(t/1000));
 						System.out.println((new JSONObject(log.get(i))).getJSONObject("Robot"));
 					}
@@ -92,20 +92,20 @@ public class MyManageGame
 		}
 	}
 
-	private  int nextNode(int src,List<Integer>destList) 
+	public  int nextNode(int src,List<Integer>destList) 
 	{
 		double minpath=Double.POSITIVE_INFINITY;
 		edge_data e=null;
 		int Final=0;
 		boolean isDest=false;
-		for(int i=0;i<this.my.getFruits().size();i++) //find the fruit that is closest to the src
+		for(int i=0;i<this.getMy().getFruits().size();i++) //find the fruit that is closest to the src
 		{
 			double dist;List<node_data> node;int dest;
-		 	e=this.my.getFruits().get(i).edge(this.my.getG());
-		 	if(this.my.getFruits().get(i).whichfruit==true) //if its apple
+		 	e=this.getMy().getFruits().get(i).edge(this.getMy().getG());
+		 	if(this.getMy().getFruits().get(i).whichfruit==true) //if its apple
 		 	{
-		 		dist=this.my.getGa().shortestPathDist(src, e.getSrc());
-		 		node=this.my.getGa().shortestPath(src, e.getSrc());
+		 		dist=this.getMy().getGa().shortestPathDist(src, e.getSrc());
+		 		node=this.getMy().getGa().shortestPath(src, e.getSrc());
 		 		if(node.size()==1)
 		 			dest= e.getDest();
 		 		else
@@ -113,8 +113,8 @@ public class MyManageGame
 		 	}
 		 	else//if its banana
 		 	{
-		 		dist=this.my.getGa().shortestPathDist(src, e.getDest());
-		 		node=this.my.getGa().shortestPath(src, e.getDest());
+		 		dist=this.getMy().getGa().shortestPathDist(src, e.getDest());
+		 		node=this.getMy().getGa().shortestPath(src, e.getDest());
 		 		if(node.size()==1)
 		 			dest= e.getSrc();
 		 		else
@@ -131,7 +131,7 @@ public class MyManageGame
 			return Final;
 		else //if there isnt a fruit available for this robots
 		{
-			e=this.my.getFruits().get(0).edge(this.my.getG());
+			e=this.getMy().getFruits().get(0).edge(this.getMy().getG());
 			if(src==e.getSrc()) 
 			{
 				return e.getDest();
@@ -139,8 +139,14 @@ public class MyManageGame
 			else
 				if(src==e.getDest())
 					return e.getSrc();
-			List<node_data> node=this.my.getGa().shortestPath(src, e.getSrc());
+			List<node_data> node=this.getMy().getGa().shortestPath(src, e.getSrc());
 			return (node.get(1).getKey());
 		}		
+	}
+	public MyGameGUI getMy() {
+		return my;
+	}
+	public void setMy(MyGameGUI my) {
+		this.my = my;
 	}
 }

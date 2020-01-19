@@ -55,7 +55,14 @@ public class nodeData implements node_data, Serializable
         this.setLocation(p);
         this.setInfo(msg);
     }
-    
+	public nodeData(Point3D p,double w,String i,int t) 
+	{
+		this();
+		this._pos=p;
+		this._weight=w;
+		this._msg=i;
+		this._tag=t;
+	}
     @Override
     public Point3D getLocation() {
         return this._pos;

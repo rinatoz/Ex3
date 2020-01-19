@@ -60,12 +60,29 @@ public class MyGameGUI  implements Runnable
     			 Mouse();
     		 else
     		 {
-    			 m1=new MyManageGame(this);
-    			 m1.Auto();
+    			 setM1(new MyManageGame(this));
+    			 getM1().Auto();
     		 }
     		
     		 drawRobot();    		
 		}
+	
+public MyGameGUI(game_service game,int scenario)
+	{
+	this.setRobots(new ArrayList<Robot>());
+     this.setFruits(new ArrayList<myFruits>());
+      this.game=game;
+      this.scenario=scenario;
+      this.setGame(Game_Server.getServer(scenario));
+      String graph=getGame().getGraph();
+      this.setG(new DGraph());
+      this.getG().init(graph);
+      this.setGa(new Graph_Algo());
+      getGa().init(this.getG());
+       addRobots(game);
+       addFruit(game);
+    // limit();
+	}
 	
     public void initGUI()
 	{	
@@ -282,8 +299,8 @@ public class MyGameGUI  implements Runnable
 			for(int i=0;i<log.size();i++)
 			{
 					int rid=getRobots().get(i).id;
-					int src=getRobots().get(i).src;
-					int dest=getRobots().get(i).dest;
+					int src=getRobots().get(i).getSrc();
+					int dest=getRobots().get(i).getDest();
 					if(dest==-1) 
 					{	
 						Collection<edge_data> e=this.getG().getE(src);
@@ -326,18 +343,18 @@ public class MyGameGUI  implements Runnable
 		game.startGame();
 		while(game.isRunning())
 		{
-				this.m1.update(game, fruits, robots);
+				this.getM1().update(game, fruits, robots);
 				synchronized(this) 
 				{
 					if(type=="automatic")
-						 this.m1.moveRobotsAuto();
+						 this.getM1().moveRobotsAuto();
 					else	
 					   moveRobotsManual();
 					initGUI();
 				}
 				try
 				{
-					Thread.sleep(100);
+					Thread.sleep(70);
 				}
 				catch(InterruptedException e)
 				{
@@ -395,6 +412,12 @@ public class MyGameGUI  implements Runnable
 	{
        ArrayList<Robot> rob=(ArrayList<Robot>)p;
 		this.robots=rob;
+	}
+	public MyManageGame getM1() {
+		return m1;
+	}
+	public void setM1(MyManageGame m1) {
+		this.m1 = m1;
 	}
 
 
