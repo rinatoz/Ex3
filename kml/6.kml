@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>File Representing Robot Game!</name>
+<open>1</open>
+<description>KML format for robot game scenario 6!</description>
+    <Style id="apple">
+      <IconStyle>
+        <Icon>
+          <href>apple.png</href>
+        </Icon>
+      </IconStyle>
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="banana">
+      <IconStyle>
+        <Icon>
+          <href>banana.png</href>
+        </Icon>
+      </IconStyle>
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="robot">
+      <IconStyle>
+        <Icon>
+          <href>robot.png</href>
+        </Icon>
+      </IconStyle>
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Folder><name>Nodes</name>
+      <visibility>0</visibility>
+      <description>This is where the Nodes are stored</description>
+<Placemark>
+<name>Node1</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.987333200Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.19589389346247,32.10152879327731,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node2</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.20319591121872,32.10318254621849,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node3</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.20752617756255,32.1025646605042,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node4</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.21007339305892,32.10107446554622,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node5</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.21310882485876,32.104636394957986,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node6</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.212111165456015,32.106235628571426,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node7</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.988333300Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.20797194027441,32.104854472268904,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node8</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.205764353510894,32.106326494117646,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node9</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.20154022114608,32.10594485882353,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node10</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.19805902663438,32.10525428067227,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node11</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.197400995964486,32.10510889579832,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node12</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.19351649233253,32.1061811092437,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node13</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.18950462792575,32.10788938151261,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node14</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.189568308313156,32.106617263865544,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node15</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.18869800968523,32.104927164705884,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node16</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.187594216303474,32.10378225882353,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node17</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:17.989333Z</when> 
+      </TimeStamp>
+      <styleUrl>#paddle-a</styleUrl>
+      <Point>
+        <coordinates>35.19381366747377,32.102419275630254,0.0,0</coordinates>
+      </Point>
+    </Placemark>
+    </Folder> 
+
+<Placemark>
+<name> Graph Edges</name>
+ <LineString>
+  <coordinates>
+35.19589389346247,32.1015287 35.20319591121872,32.1031825 35.20752617756255,32.1025646 35.21007339305892,32.1010744 35.21310882485876,32.1046363 35.212111165456015,32.106235 35.20797194027441,32.1048544 35.205764353510894,32.106326 35.20154022114608,32.1059448 35.19805902663438,32.1052542 35.197400995964486,32.105108 35.19351649233253,32.1061811 35.18950462792575,32.1078893 35.189568308313156,32.106617 35.18869800968523,32.1049271 35.187594216303474,32.103782 35.19381366747377,32.1024192 
+  </coordinates>
+ </LineString>
+
+ <Style>
+  <LineStyle>
+   <color>#ff0000ff</color>
+	 <width>5</width>
+  </LineStyle>
+ </Style>
+    </Placemark>
+<Placemark>
+<name>Fruit1</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node1</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:19.113739100Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.19381366747377,32.102419275630254,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:19.113739100Z</begin>
+         <end>2020-01-19T18:47:19.113739100Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit2</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit3</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit4</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit5</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit6</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit7</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit8</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit9</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit10</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit11</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit12</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit13</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit14</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit15</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit16</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit17</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node2</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:20.804389100Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.187594216303474,32.10378225882353,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:20.804389100Z</begin>
+         <end>2020-01-19T18:47:20.804389100Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit18</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit19</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit20</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit21</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit22</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit23</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit24</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit25</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit26</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit27</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit28</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit29</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit30</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit31</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit32</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit33</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit34</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node3</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:22.574639200Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.18869800968523,32.104927164705884,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:22.574639200Z</begin>
+         <end>2020-01-19T18:47:22.574639200Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit35</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.188900353135324,32.105320110855615,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit36</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit37</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit38</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit39</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit40</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit41</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit42</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit43</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit44</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit45</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit46</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit47</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit48</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node4</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:24.033097600Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.189568308313156,32.106617263865544,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:24.033097600Z</begin>
+         <end>2020-01-19T18:47:24.033097600Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit49</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit50</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit51</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit52</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit53</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit54</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit55</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit56</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit57</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit58</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit59</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node5</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:25.178926400Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.18869800968523,32.104927164705884,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:25.178926400Z</begin>
+         <end>2020-01-19T18:47:25.178926400Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit60</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit61</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit62</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit63</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit64</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit65</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit66</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit67</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit68</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit69</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit70</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit71</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node6</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:26.429021900Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.187594216303474,32.10378225882353,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:26.429021900Z</begin>
+         <end>2020-01-19T18:47:26.429021900Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit72</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit73</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit74</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit75</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit76</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit77</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit78</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit79</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit80</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit81</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit82</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit83</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit84</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit85</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit86</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit87</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit88</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit89</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit90</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit91</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node7</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:28.499686200Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.19381366747377,32.102419275630254,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:28.499686200Z</begin>
+         <end>2020-01-19T18:47:28.499686200Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit92</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit93</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit94</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit95</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit96</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit97</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit98</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit99</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit100</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit101</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit102</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit103</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit104</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit105</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit106</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node8</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:30.051791800Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.19589389346247,32.10152879327731,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:30.051791800Z</begin>
+         <end>2020-01-19T18:47:30.051791800Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit107</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit108</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit109</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit110</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit111</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit112</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit113</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit114</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit115</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit116</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit117</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit118</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit119</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node9</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:31.398585900Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20319591121872,32.10318254621849,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:31.398585900Z</begin>
+         <end>2020-01-19T18:47:31.398585900Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit120</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit121</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit122</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit123</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit124</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit125</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit126</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit127</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit128</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit129</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit130</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit131</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit132</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit133</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit134</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit135</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit136</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit137</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit138</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node10</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:33.363974300Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20752617756255,32.1025646605042,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:33.363974300Z</begin>
+         <end>2020-01-19T18:47:33.363974300Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit139</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit140</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit141</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit142</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit143</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit144</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit145</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit146</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit147</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit148</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit149</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit150</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206679711961414,32.10571613186106,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit151</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit152</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit153</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit154</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit155</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit156</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit157</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node11</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:35.331023700Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20797194027441,32.104854472268904,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:35.331023700Z</begin>
+         <end>2020-01-19T18:47:35.331023700Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit158</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit159</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit160</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit161</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit162</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit163</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit164</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit165</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit166</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit167</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit168</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit169</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit170</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit171</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit172</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit173</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node12</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:36.983912800Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.212111165456015,32.106235628571426,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:36.983912800Z</begin>
+         <end>2020-01-19T18:47:36.983912800Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit174</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.212669424769075,32.105340746955505,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit175</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit176</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit177</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit178</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit179</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit180</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit181</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit182</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit183</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit184</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit185</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit186</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit187</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit188</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit189</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit190</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node13</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:38.739752200Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.21310882485876,32.104636394957986,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:38.739752200Z</begin>
+         <end>2020-01-19T18:47:38.739752200Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit191</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit192</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit193</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit194</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.21120742821597,32.10240519983585,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit195</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.2107064115802,32.10181728154006,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit196</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.2107064115802,32.10181728154006,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit197</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.2107064115802,32.10181728154006,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit198</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit199</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit200</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit201</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit202</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit203</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit204</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit205</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit206</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit207</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit208</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit209</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node14</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:40.708515800Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.21007339305892,32.10107446554622,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:40.708515800Z</begin>
+         <end>2020-01-19T18:47:40.708515800Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit210</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit211</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit212</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit213</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit214</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit215</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit216</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit217</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit218</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit219</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit220</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit221</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit222</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit223</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit224</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node15</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:42.260865200Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20752617756255,32.1025646605042,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:42.260865200Z</begin>
+         <end>2020-01-19T18:47:42.260865200Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit225</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit226</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit227</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit228</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit229</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit230</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit231</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit232</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20704629752213,32.105471692111855,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit233</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit234</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node16</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:43.294007100Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20797194027441,32.104854472268904,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:43.294007100Z</begin>
+         <end>2020-01-19T18:47:43.294007100Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit235</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit236</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit237</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit238</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit239</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit240</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit241</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit242</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit243</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit244</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node17</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:44.327632400Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20752617756255,32.1025646605042,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:44.327632400Z</begin>
+         <end>2020-01-19T18:47:44.327632400Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit245</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.206149967510925,32.10276103191955,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit246</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.20602559117258,32.102778779179545,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit247</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit248</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit249</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit250</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit251</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit252</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit253</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node18</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:45.257436600Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20319591121872,32.10318254621849,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:45.257436600Z</begin>
+         <end>2020-01-19T18:47:45.257436600Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit254</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit255</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit256</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit257</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit258</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit259</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit260</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit261</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit262</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit263</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node19</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:46.292044600Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20752617756255,32.1025646605042,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:46.292044600Z</begin>
+         <end>2020-01-19T18:47:46.292044600Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit264</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit265</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit266</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit267</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit268</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit269</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit270</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit271</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit272</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit273</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node20</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:47.326795100Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20797194027441,32.104854472268904,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:47.326795100Z</begin>
+         <end>2020-01-19T18:47:47.326795100Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit274</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit275</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit276</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit277</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit278</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit279</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit280</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node21</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:48.049773300Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.205764353510894,32.106326494117646,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:48.049773300Z</begin>
+         <end>2020-01-19T18:47:48.049773300Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit281</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit282</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit283</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit284</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit285</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit286</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit287</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit288</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Node22</name> 
+      <TimeStamp>
+		<when>2020-01-19T18:47:48.876798300Z</when> 
+      </TimeStamp>
+      <styleUrl>#robot</styleUrl>
+      <Point>
+        <coordinates>35.20154022114608,32.10594485882353,0.0,0</coordinates>
+      </Point>
+      <TimeSpan>
+         <begin>2020-01-19T18:47:48.876798300Z</begin>
+         <end>2020-01-19T18:47:48.876798300Z</end>
+         </TimeSpan>
+    </Placemark><Placemark>
+<name>Fruit289</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit290</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+<Placemark>
+<name>Fruit291</name> 
+      <styleUrl>#banana</styleUrl>
+      <Point>
+        <coordinates>35.19157396552351,32.10700824703875,0.0</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>
