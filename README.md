@@ -26,3 +26,13 @@ and this is the final screen:
 
 ![](https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/82643907_2741991509201871_1537314721047248896_n.jpg?_nc_cat=104&_nc_ohc=XxtWDaN5EH0AX9-zfvH&_nc_ht=scontent.fsdv3-1.fna&oh=3bdd22d3b3e961a2d26f60072479c061&oe=5EA0E831)
 
+KML Logger class:
+The following methods are implemented:
+1.KML_logger() - single constractor which constructs the header or beggining of the kml file structure - see code for more info.
+2.Styleid(FileWriter fw,String styleid) - this function sets the icons of the kml (in our case it is apple,banana and robot icons)
+3.fillFruit(FileWriter fw,String position,String fruit) - here we add the fruits to the file one by one while game is running.
+4.fillPlacemark(FileWriter fw,String position) - adds the movements that is need to be done to the file one by one while game is running
+5.fillNodes(FileWriter fw,String position) - fills the nodes of the graph
+6.fillEdges(FileWriter fw,String coordinates) - fills the edges of all the graph (the RED line in the final KML file)
+7.openKMLFolder(FileWriter fw,String foldername,String description) - opens a folder provided by foldername and fills a description by a description string.
+8.closeKMLFolder(FileWriter fw) - closes the last opened folder.
