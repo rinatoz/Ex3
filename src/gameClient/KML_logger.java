@@ -1,5 +1,7 @@
 package gameClient;
 import java.io.FileWriter;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
@@ -232,9 +234,23 @@ public class KML_logger  {
 		  
 		
 	}
-	
-	
-		
+	public static String readFile() throws IOException {
+	    BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir")+"/testkml.kml"));
+	    try {
+	        StringBuilder sb = new StringBuilder();
+	        String line = br.readLine();
+
+	        while (line != null) {
+	            sb.append(line);
+	            sb.append("\n");
+	            line = br.readLine();
+	        }
+	        return sb.toString();
+	    }finally {
+	            br.close();
+	        }
+	}
+
 		public static void main(String[] args) throws IOException {
 				
 }

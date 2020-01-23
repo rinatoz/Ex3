@@ -22,7 +22,7 @@ import utils.StdDraw;
 public class MyGameGUI  implements Runnable  
 {
 	public static double EPS=0.001;
-	private game_service game;
+	private static game_service game;
 	private DGraph g;
 	private Graph_Algo ga;
 	private ArrayList<Robot> robots;
@@ -382,7 +382,7 @@ public class MyGameGUI  implements Runnable
 		String results = game.toString();
 		System.out.println("Game Over: "+results);
 	}
-	public static void main(String[] args) 
+	public static void main(String[] args) throws IOException 
 	{
 		KML_logger kml = null;
 		try {
@@ -401,10 +401,14 @@ public class MyGameGUI  implements Runnable
 		//KML_logger.migrationPath(kml.fw,KML_logger.Coordinates);
 		try {
 			kml.closekml();
+			String kmlData=KML_logger.readFile();
+			game.sendKML(kmlData);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
 	}
 
 	public game_service getGame() {
